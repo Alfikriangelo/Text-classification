@@ -24,7 +24,7 @@ for i in range(len(df.columns[:-1])):
   plt.hist(df[df['Outcome']==1][label], color='blue', label='Diabetes', alpha = 0.6, density=True, bins=15 )
   plt.hist(df[df['Outcome']==0][label], color='red', label='No Diabetes', alpha = 0.6, density=True, bins=15)
   plt.title(label)
-  plt.ylabel('Probability')
+  plt.ylabel('Probabilitas')
   plt.xlabel(label)
   plt.legend()
   plt.show()
